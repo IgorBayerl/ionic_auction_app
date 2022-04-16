@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>login-page</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button expand="block" (click)="login()">Login</ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button expand="block" routerLink="/register">Register</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-input type="text" placeholder="Username"></ion-input>
+  <ion-input type="password" placeholder="Password"></ion-input>
+  <ion-button class="testeCSS" expand="block" (click)="showAlert()">
+    aaa
+  </ion-button>
+</ion-content>
